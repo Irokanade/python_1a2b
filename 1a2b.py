@@ -39,12 +39,12 @@ while win != True:
             if i==j:
                 #print("icounter{0} jcounter{1}".format(icounter, jcounter))
                 if icounter==jcounter:
-                    b += 1
+                    a += 1
                     break
                 else:
-                    a += 1
+                    b += 1
                     break
 
     print("{0}a{1}b".format(a,b))
-    if b==4:
+    if a==4:
         win = True
